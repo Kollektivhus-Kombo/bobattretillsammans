@@ -36,9 +36,11 @@ a:hover{color:var(--coral-dark); text-decoration:underline}
 
 .container{max-width:1000px; margin:0 auto; padding:24px}
 
+
+
 /* Header */
 .header{display:flex; align-items:center; gap:16px; padding:12px 0}
-.header img{height:64px; width:auto}
+.header img{width:100%; text-align: center; margin: 0 auto;}
 .header h1{
   font-family:var(--font-display);
   letter-spacing:0.3px;
@@ -56,11 +58,6 @@ a:hover{color:var(--coral-dark); text-decoration:underline}
 }
 .nav a:hover{border-color:var(--coral); color:var(--coral)}
 
-.logo-container {
-    width: 30%; /* Eller en specifik bredd om du inte vill att den ska täcka hela bredden */
-    text-align: center; /* Centrerar innehållet (bilden) inuti diven */
-    margin: 0 auto; /* Centrerar div-elementet självt */
-}
 
 /* Hero */
 .hero{
