@@ -40,7 +40,11 @@ a:hover{color:var(--coral-dark); text-decoration:underline}
 
 /* Header */
 .header{display:flex; align-items:center; gap:16px; padding:12px 0}
-.header img{width:100%; text-align: center; margin: 0 auto;}
+.header img {
+  display: block; /* Gör bilden till ett block-element */
+  margin: 0 auto; /* Centrerar blocket (bilden) horisontellt */
+}
+/* {height: 100px; width: auto; text-align: center} */
 .header h1{
   font-family:var(--font-display);
   letter-spacing:0.3px;
