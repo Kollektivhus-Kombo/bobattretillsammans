@@ -56,6 +56,12 @@ a:hover{color:var(--coral-dark); text-decoration:underline}
 }
 .nav a:hover{border-color:var(--coral); color:var(--coral)}
 
+.logo-container {
+    width: 30%; /* Eller en specifik bredd om du inte vill att den ska täcka hela bredden */
+    text-align: center; /* Centrerar innehållet (bilden) inuti diven */
+    margin: 0 auto; /* Centrerar div-elementet självt */
+}
+
 /* Hero */
 .hero{
   margin-top:8px;
